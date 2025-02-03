@@ -43,5 +43,14 @@ def pass_mission():
 		token = carrer['token']
 		skip_mission(token)
 
+while 1:
+	pass_mission()
+	if counter == 10:
+		counter = 0
+		print('Sleeping 3.5 second prevent anti spam')
+		time.sleep(0.1)
+	else:
+		counter += 1
+
 
 
