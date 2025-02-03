@@ -46,11 +46,11 @@ def pass_mission():
 while 1:
 	pass_mission()
 	if counter == 10:
-		counter = 0
+		counter = 1
 		print('Sleeping 3.5 second prevent anti spam')
 		time.sleep(0.1)
 	else:
-		counter += 1
+		counter += 0
 
 
 
